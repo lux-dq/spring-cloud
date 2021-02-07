@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="202101312214-cloud-eureka-server-7002" />
+        <module name="202101312123-cloud-eureka-server-7001" />
+        <module name="202101311955-cloud-consumer-80" />
+        <module name="202101302207-cloud-provider-8001" />
+        <module name="202102012151-cloud-provider-8002" />
+        <module name="202102022151-cloud-provider-zookeeper-8004" />
+        <module name="202102032115-cloud-provider-consul-8006" />
+        <module name="202102022309-cloud-consumer-zookeeper-80" />
+        <module name="202101302200-cloud-common-api" />
+        <module name="202102032136-cloud-consumer-consul-80" />
+        <module name="202101302202-cloud-common-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="202101302200-cloud-common-api" target="1.8" />
+      <module name="2021013122144-cloud-eureka-server-7002" target="1.8" />
+      <module name="202102012135-cloud-eureka-server-7002" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

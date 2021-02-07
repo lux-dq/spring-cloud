@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202101302202-cloud-common-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202101302202-cloud-common-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202101302202-cloud-common-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202101302207-cloud-provider-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202101302207-cloud-provider-8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202101302207-cloud-provider-8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202101311955-cloud-consumer-80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202101311955-cloud-consumer-80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202101311955-cloud-consumer-80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202101312123-cloud-eureka-server-7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202101312123-cloud-eureka-server-7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202101312123-cloud-eureka-server-7001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202101312214-cloud-eureka-server-7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202101312214-cloud-eureka-server-7002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202101312214-cloud-eureka-server-7002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202102012151-cloud-provider-8002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202102012151-cloud-provider-8002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202102022151-cloud-provider-zookeeper-8004/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202102022151-cloud-provider-zookeeper-8004/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202102022309-cloud-consumer-zookeeper-80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202102022309-cloud-consumer-zookeeper-80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202102032115-cloud-provider-consul-8006/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202102032115-cloud-provider-consul-8006/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202102032136-cloud-consumer-consul-80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202102032136-cloud-consumer-consul-80/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

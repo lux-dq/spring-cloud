@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lux.springcloud.dao.PaymentMapper">
+    <resultMap id="BaseResultMap" type="com.lux.springcloud.pojo.custom.PaymentCustom">
+        <id column="id" property="id" jdbcType="BIGINT"/>
+        <result column="serial" property="serial" jdbcType="VARCHAR"/>
+        <result column="del_flag" property="delFlag" jdbcType="BIT"/>
+        <result column="create_date" property="createDate" jdbcType="TIMESTAMP"/>
+        <result column="create_user" property="createUser" jdbcType="BIGINT"/>
+        <result column="update_date" property="updateDate" jdbcType="TIMESTAMP"/>
+        <result column="update_user" property="updateUser" jdbcType="BIGINT"/>
+        <result column="version" property="version" jdbcType="BIGINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        `id`,
+        `serial`,
+        `del_flag`,
+        `create_date`,
+        `create_user`,
+        `update_date`,
+        `update_user`,
+        `version`
+    </sql>
+
+    <sql id="whereForFindList">
+        <if test="param.ids != null and param.ids.size() != 0">
+            AND `id` IN
+            <foreach collection="record.ids" item="id" index="index" open="(" close=")" separator=",">
+                #{id}
+            </foreach>
+        </if>
+        <if test="record.serial != null and record.serial != ''">
+            AND serial = #{record.serial}
+        </if>
+        <if test="record.createDateBegin != null">
+            AND create_date <![CDATA[>=]]> #{record.createDateBegin}
+        </if>
+        <if test="record.createDateEnd != null">
+            AND create_date <![CDATA[<=]]> #{record.createDateEnd}
+        </if>
+    </sql>
+
+    <insert id="insert">
+        INSERT INTO spring_cloud.payment
+        (<include refid="Base_Column_List"/>)
+        VALUES
+        (
+        #{record.id},
+        #{record.serial},
+        0,
+        NOW(),
+        #{record.createUser},
+        NOW(),
+        #{record.updateUser},
+        1
+        )
+    </insert>
+
+    <select id="getById" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM spring_cloud.payment
+        WHERE del_flag = 0
+        AND `id` = #{id}
+    </select>
+</mapper>
