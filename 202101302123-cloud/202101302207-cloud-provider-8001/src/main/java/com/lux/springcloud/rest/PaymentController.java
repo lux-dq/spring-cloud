@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @Author lux
@@ -62,6 +63,17 @@ public class PaymentController {
     // 测试手写的Ribbon轮询算法，实际就是返回端口号
     @RequestMapping(value = "/payment/lb")
     public String getLBPort() {
+        return serverPort;
+    }
+
+    // 测试feign的超时控制(模拟长流程调用)
+    @RequestMapping(value = "/payment/timeout")
+    public String feignTimeout() {
+        try {
+            TimeUnit.SECONDS.sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return serverPort;
     }
 }
