@@ -27,6 +27,8 @@
     <file url="file://$PROJECT_DIR$/202102032115-cloud-provider-consul-8006/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/202102032136-cloud-consumer-consul-80/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/202102032136-cloud-consumer-consul-80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202102121100-cloud-consumer-feign-80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/202102121100-cloud-consumer-feign-80/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

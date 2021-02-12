@@ -58,4 +58,10 @@ public class PaymentController {
 
         return this.discoveryClient;
     }
+
+    // 测试手写的Ribbon轮询算法，实际就是返回端口号
+    @RequestMapping(value = "/payment/lb")
+    public String getLBPort() {
+        return serverPort;
+    }
 }

@@ -12,7 +12,8 @@ import org.springframework.web.client.RestTemplate;
 @Configuration
 public class ApplicationContextConfig {
     @Bean
-    @LoadBalanced
+    // 如果想要使用自己的Ribbon负载均衡算法，一定要将该注解先注释掉
+//    @LoadBalanced
     public RestTemplate getRestTemplate() {
         return new RestTemplate();
     }

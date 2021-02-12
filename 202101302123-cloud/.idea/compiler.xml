@@ -16,6 +16,7 @@
         <module name="202102032115-cloud-provider-consul-8006" />
         <module name="202102022309-cloud-consumer-zookeeper-80" />
         <module name="202101302200-cloud-common-api" />
+        <module name="202102121100-cloud-consumer-feign-80" />
         <module name="202102032136-cloud-consumer-consul-80" />
         <module name="202101302202-cloud-common-api" />
       </profile>
